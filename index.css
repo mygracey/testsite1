@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.container{
+    width:100%;
+    height:100vh;
+    background:#181818;
+}
+.nav{
+    width:100%;
+    height:80px;
+    background-color: silver;
+}
+
+ul{
+    display:flex;
+    justify-content: flex-end;
+    list-style-type:none;
+    position:relative;
+    top:30px;
+}
+
+ul a{
+    text-decoration: none;
+    font-size: 20px;
+    margin:10px;
+    color:wheat;
+}
+
+
+.main{
+    width:100%;
+    height:545px;
+    background:transparent;
+    display:flex;
+    justify-content: center;
+}
+
+.main .box1{
+    width:50%;
+    height:100%;
+    background-image: url(bag1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main .box2{
+    width:50%;
+    height:100%;
+    background:deepskyblue;
+}
+
+form{
+    width:400px;
+    height:80%;
+    background-color: transparent;
+    position:relative;
+    left:150px;
+}
+
+form button{
+    width:200px;
+    height:40px;
+    border-radius: 10px;
+    background:white;
+    color:deepskyblue;
+    border:none;
+    position:relative;
+    left:70px;
+    top:40px;
+    cursor:pointer;
+}
+
+input{
+    width:80%;
+    height:40px;
+    border:2px solid white;
+    margin:10px;
+    background:transparent;
+    text-align: center;
+}
+
+::placeholder{
+    color:white;
+}
+
+footer{
+    width:100%;
+    height:80px;
+    background-color: silver;
+}
+
+footer h4{
+    text-align: center;
+    position:relative;
+    top:30px;
+    color:white;
+}
